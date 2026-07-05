@@ -56,7 +56,7 @@ const Hero = () => {
                     <div className="hero-buttons">
                         <a href="#projects" className="btn btn-primary"><i className="fas fa-folder-open"></i> View Projects</a>
                         <a href="#contact" className="btn btn-secondary"><i className="fas fa-envelope"></i> Contact Me</a>
-                        <a href="Resume.pdf" download className="btn btn-primary" style={{ background: 'var(--accent-color)', borderColor: 'var(--accent-color)', marginLeft: '1rem' }}><i className="fas fa-download"></i> Download Resume</a>
+                        <a href="/resume/Jaihari%20Resume.pdf" download="Jaihari_Resume.pdf" className="btn btn-primary" style={{ background: 'var(--accent-color)', borderColor: 'var(--accent-color)', marginLeft: '1rem' }}><i className="fas fa-download"></i> Download Resume</a>
                     </div>
                     
                     <div className="hero-social-boxes">
