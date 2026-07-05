@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaihari Jayapaul - Portfolio</title>
+    <meta name="description" content="Portfolio of Jaihari Jayapaul, Data Engineer and AI/ML Engineer.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <span class="loader-text">Jaihari.</span>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="myBar"></div>
+    </div>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Jaihari<span>.</span></a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link btn-contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-full">
+            <div class="container hero-container">
+                <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                    <h2 class="hero-greeting">Hello, I'm</h2>
+                    <h1 class="hero-title">Jaihari <span>Jayapaul</span></h1>
+                    <h3 class="hero-subtitle">I am an <span id="typed" style="color: var(--accent-color);"></span></h3>
+                    <p class="hero-description">
+                        Building end-to-end data pipelines and training machine learning models to deliver scalable AI solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="resume/Jaihari Resume.pdf" target="_blank" class="btn btn-primary"><i class="fas fa-file-alt"></i> View Resume</a>
+                        <a href="#projects" class="btn btn-secondary"><i class="fas fa-briefcase"></i> My Work</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="image-blob">
+                        <img src="profile picture/jaihari.jpeg" alt="Jaihari Jayapaul" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section section-full">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">About <span>Me</span></h2>
+                <div class="about-content glass-card" data-aos="zoom-in" data-aos-duration="1000" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <p>
+                        Aspiring Data Engineer and AI/ML Engineer with a strong technical foundation in Python, SQL, and predictive modeling. Experienced in building end-to-end data pipelines, managing relational databases, and training machine learning models to deliver scalable AI solutions. 
+                    </p>
+                    <p>
+                        Committed to optimizing data quality and model performance while leveraging robust coding practices to drive technical innovation in collaborative, fast-paced environments.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section section-full">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">My <span>Skills</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="100" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+                        <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Python</span><span>90%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>SQL</span><span>85%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Java</span><span>80%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 80%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>React</span><span>75%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 75%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>HTML & CSS</span><span>95%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 95%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Data Modeling</span><span>80%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 80%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>ETL</span><span>85%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 85%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="200" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+                        <h3><i class="fas fa-tools"></i> Tools & IDEs</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>VS Code</span><span>95%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 95%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>GitHub</span><span>90%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Power BI</span><span>85%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Antigravity</span><span>80%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 80%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Excel / MS Word</span><span>90%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 90%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="300" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+                        <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Teamwork</span><span>95%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 95%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Adaptability</span><span>90%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Leadership</span><span>85%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Presentation</span><span>85%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 85%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="400" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+                        <h3><i class="fas fa-language"></i> Languages</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>English</span><span>100%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 100%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Tamil</span><span>100%</span></div>
+                                <div class="progress-bg"><div class="progress-fill" style="width: 100%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Projects Section -->
+        <section id="experience" class="experience section section-full">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Experience & <span>Projects</span></h2>
+                <div class="timeline-grid">
+                    <div class="timeline-column" data-aos="fade-right" data-aos-delay="200">
+                        <h3 class="column-title"><i class="fas fa-project-diagram"></i> Projects</h3>
+                        <div class="timeline">
+                            <div class="timeline-item glass-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.2">
+                                <div class="timeline-date">2026</div>
+                                <h4>AI Chatbot</h4>
+                                <p>Chatbot similar to GrokAI</p>
+                            </div>
+                            <div class="timeline-item glass-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.2">
+                                <div class="timeline-date">Project</div>
+                                <h4>Diabetics Prediction using ML</h4>
+                                <p>Predictive modeling for healthcare.</p>
+                            </div>
+                            <div class="timeline-item glass-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.2">
+                                <div class="timeline-date">Project</div>
+                                <h4>Automated Cloud-Native Music Analytics Pipeline</h4>
+                                <p>End-to-end data pipeline solution.</p>
+                            </div>
+                            <div class="timeline-item glass-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.2">
+                                <div class="timeline-date">Project</div>
+                                <h4>AI Smart Resume Analyser</h4>
+                                <p>AI solution for parsing and analyzing resumes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-column" id="projects" data-aos="fade-left" data-aos-delay="200">
+                        <h3 class="column-title"><i class="fas fa-user-tie"></i> Internships</h3>
+                        <div class="timeline">
+                            <div class="timeline-item glass-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.2">
+                                <div class="timeline-date">2025</div>
+                                <h4>Artificial Intelligence</h4>
+                                <p>MAIYYAM</p>
+                            </div>
+                            <div class="timeline-item glass-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.2">
+                                <div class="timeline-date">Internship</div>
+                                <h4>UI/UX Design</h4>
+                                <p>MAIYYAM</p>
+                            </div>
+                            <div class="timeline-item glass-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.2">
+                                <div class="timeline-date">Internship</div>
+                                <h4>Video Editing and Motion Graphics</h4>
+                                <p>MAIYYAM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section section-full">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">My <span>Education</span></h2>
+                <div class="timeline-grid" style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto;" data-aos="zoom-in-up" data-aos-delay="200">
+                    <div class="timeline-column">
+                        <div class="timeline">
+                            <div class="timeline-item glass-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.2">
+                                <div class="timeline-date">2023 - 2027</div>
+                                <h4>Bachelor’s in AI and ML (72%)</h4>
+                                <p>RVS College Of Arts & Science, Sulur.</p>
+                            </div>
+                            <div class="timeline-item glass-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.2">
+                                <div class="timeline-date">2022</div>
+                                <h4>HSC (81.3%)</h4>
+                                <p>TMHNU Matric Higher Sec School, Theni.</p>
+                            </div>
+                            <div class="timeline-item glass-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.2">
+                                <div class="timeline-date">2020</div>
+                                <h4>SSLC (91.8%)</h4>
+                                <p>TMHNU Matric Higher Sec School, Theni.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications section section-full">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">My <span>Certifications</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-category glass-card cert-card" data-aos="flip-left" data-aos-delay="100" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+                        <h3><i class="fas fa-certificate text-accent"></i> Microsoft Azure AI Essentials</h3>
+                        <p class="cert-issuer">Microsoft & LinkedIn (2025)</p>
+                        <button class="btn btn-secondary btn-sm show-cert-btn" data-cert="certificates/WhatsApp Image 2026-07-05 at 3.06.38 PM.jpeg">Show Certificate</button>
+                    </div>
+                    <div class="skill-category glass-card cert-card" data-aos="flip-left" data-aos-delay="200" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+                        <h3><i class="fas fa-certificate text-accent"></i> JavaScript Algorithms and Data Structures V7</h3>
+                        <p class="cert-issuer">FreeCodeCamp (2026)</p>
+                        <button class="btn btn-secondary btn-sm show-cert-btn" data-cert="certificates/WhatsApp Image 2026-07-05 at 3.06.39 PM (1).jpeg">Show Certificate</button>
+                    </div>
+                    <div class="skill-category glass-card cert-card" data-aos="flip-left" data-aos-delay="300" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+                        <h3><i class="fas fa-certificate text-accent"></i> Innovating with Google Cloud AI</h3>
+                        <p class="cert-issuer">Simplilearn</p>
+                        <button class="btn btn-secondary btn-sm show-cert-btn" data-cert="certificates/WhatsApp Image 2026-07-05 at 3.06.39 PM.jpeg">Show Certificate</button>
+                    </div>
+                    <div class="skill-category glass-card cert-card" data-aos="flip-left" data-aos-delay="400" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+                        <h3><i class="fas fa-certificate text-accent"></i> GenAI Powered Data Analytics Job Simulation</h3>
+                        <p class="cert-issuer">Forage & Tata</p>
+                        <button class="btn btn-secondary btn-sm show-cert-btn" data-cert="certificates/deloitte data analysis job simulation_page-0001.jpg">Show Certificate</button>
+                    </div>
+                    <div class="skill-category glass-card cert-card" data-aos="flip-left" data-aos-delay="500" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.2">
+                        <h3><i class="fas fa-certificate text-accent"></i> AWS S3 Basics</h3>
+                        <p class="cert-issuer">Coursera</p>
+                        <button class="btn btn-secondary btn-sm show-cert-btn" data-cert="certificates/WhatsApp Image 2026-07-05 at 3.06.40 PM.jpeg">Show Certificate</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section section-full">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Get in <span>Touch</span></h2>
+                <div class="contact-content glass-card" data-aos="zoom-in">
+                    <p class="contact-text">I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope fa-lg"></i>
+                            <a href="mailto:jayapauljaihari@gmail.com">jayapauljaihari@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone fa-lg"></i>
+                            <a href="tel:9786828915">9786828915</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                            <a href="https://www.linkedin.com/in/jaihari-jayapaul" target="_blank">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jaihari Jayapaul. Designed & Built with ❤️</p>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="certImage">
+    </div>
+
+    <!-- Plugins JS -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Vanilla Tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

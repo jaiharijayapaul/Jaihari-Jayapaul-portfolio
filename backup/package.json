@@ -1,0 +1,10 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Jaihari Jayapaul Portfolio",
+  "scripts": {
+    "dev": "npx serve ."
+  },
+  "author": "Jaihari Jayapaul",
+  "license": "ISC"
+}
