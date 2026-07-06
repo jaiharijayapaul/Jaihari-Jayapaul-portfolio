@@ -21,14 +21,25 @@ const Skills = () => {
                     { name: 'Python', percentage: 90, icon: 'fab fa-python' },
                     { name: 'Java', percentage: 80, icon: 'fab fa-java' },
                 ].sort((a, b) => b.percentage - a.percentage),
+                'Machine Learning & AI': [
+                    { name: 'Scikit-Learn', percentage: 90, icon: 'fas fa-chart-line' },
+                    { name: 'TensorFlow / Keras', percentage: 85, icon: 'fas fa-brain' },
+                    { name: 'PyTorch', percentage: 80, icon: 'fas fa-fire' },
+                    { name: 'NLP', percentage: 85, icon: 'fas fa-language' },
+                ].sort((a, b) => b.percentage - a.percentage),
                 'Databases': [
                     { name: 'SQL', percentage: 85, icon: 'fas fa-database' },
+                    { name: 'MySQL', percentage: 80, icon: 'fas fa-server' },
+                    { name: 'MongoDB', percentage: 75, icon: 'fas fa-leaf' },
                 ].sort((a, b) => b.percentage - a.percentage),
                 'Web Technologies': [
                     { name: 'HTML & CSS', percentage: 95, icon: 'fab fa-html5' },
+                    { name: 'FastAPI', percentage: 80, icon: 'fas fa-bolt' },
                     { name: 'React', percentage: 75, icon: 'fab fa-react' },
+                    { name: 'Node.js', percentage: 70, icon: 'fab fa-node-js' },
                 ].sort((a, b) => b.percentage - a.percentage),
                 'Data Engineering': [
+                    { name: 'Data Warehousing', percentage: 85, icon: 'fas fa-database' },
                     { name: 'ETL', percentage: 85, icon: 'fas fa-server' },
                     { name: 'Data Modeling', percentage: 80, icon: 'fas fa-project-diagram' },
                 ].sort((a, b) => b.percentage - a.percentage)
