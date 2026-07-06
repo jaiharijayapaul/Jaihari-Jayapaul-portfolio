@@ -136,10 +136,8 @@ const Skills = () => {
 
                     <div className="skills-visual-col" data-aos="fade-left" data-aos-delay="200">
                         <Tilt options={tiltOptions}>
-                            <div className="skills-circle-display">
-                                <img src={skillCategories[activeTab].image} alt={activeTab} style={{ width: '100px', height: '100px', objectFit: 'contain', marginBottom: '1rem', filter: 'drop-shadow(0 0 10px rgba(99, 102, 241, 0.5))' }} draggable="false" />
-                                <h3 style={{fontSize: '1.2rem', color: 'var(--text-primary)', marginBottom: '0.5rem'}}>{activeTab}</h3>
-                                <p style={{color: 'var(--text-secondary)', fontSize: '0.9rem'}}>{activeSkills.length} Skills</p>
+                            <div className="skills-circle-display" style={{ overflow: 'hidden' }}>
+                                <img src={skillCategories[activeTab].image} alt={activeTab} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} draggable="false" />
                             </div>
                         </Tilt>
                     </div>
