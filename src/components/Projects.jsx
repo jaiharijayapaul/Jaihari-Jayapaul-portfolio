@@ -9,7 +9,7 @@ const tiltOptions = {
 };
 
 const Projects = () => {
-    const [activeFilter, setActiveFilter] = useState('All');
+    const [activeFilter, setActiveFilter] = useState('AI / ML');
 
     const projectsList = [
         {
@@ -98,11 +98,9 @@ const Projects = () => {
         }
     ];
 
-    const filters = ['All', 'AI / ML', 'Web Dev', 'Data Engineering'];
+    const filters = ['AI / ML', 'Web Dev', 'Data Engineering'];
 
-    const filteredProjects = activeFilter === 'All' 
-        ? projectsList 
-        : projectsList.filter(p => p.category === activeFilter);
+    const filteredProjects = projectsList.filter(p => p.category === activeFilter);
 
     return (
         <section id="projects" className="projects section section-full">
