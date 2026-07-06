@@ -15,6 +15,7 @@ const Skills = () => {
     const skillCategories = {
         'Technical Skills': {
             icon: 'fas fa-laptop-code',
+            image: '/skills/tech.png',
             categories: {
                 'Programming Languages': [
                     { name: 'Python', percentage: 90, icon: 'fab fa-python' },
@@ -35,6 +36,7 @@ const Skills = () => {
         },
         'Tools & IDEs': {
             icon: 'fas fa-tools',
+            image: '/skills/tools.png',
             skills: [
                 { name: 'VS Code', percentage: 95, icon: 'fas fa-code' },
                 { name: 'GitHub', percentage: 90, icon: 'fab fa-github' },
@@ -45,6 +47,7 @@ const Skills = () => {
         },
         'Soft Skills': {
             icon: 'fas fa-users',
+            image: '/skills/soft.png',
             skills: [
                 { name: 'Teamwork', percentage: 100, icon: 'fas fa-users-cog' },
                 { name: 'Adaptability', percentage: 100, icon: 'fas fa-sync' },
@@ -134,7 +137,7 @@ const Skills = () => {
                     <div className="skills-visual-col" data-aos="fade-left" data-aos-delay="200">
                         <Tilt options={tiltOptions}>
                             <div className="skills-circle-display">
-                                <i className={skillCategories[activeTab].icon} style={{fontSize: '3rem', color: 'var(--accent-color)', marginBottom: '1rem'}}></i>
+                                <img src={skillCategories[activeTab].image} alt={activeTab} style={{ width: '100px', height: '100px', objectFit: 'contain', marginBottom: '1rem', filter: 'drop-shadow(0 0 10px rgba(99, 102, 241, 0.5))' }} draggable="false" />
                                 <h3 style={{fontSize: '1.2rem', color: 'var(--text-primary)', marginBottom: '0.5rem'}}>{activeTab}</h3>
                                 <p style={{color: 'var(--text-secondary)', fontSize: '0.9rem'}}>{activeSkills.length} Skills</p>
                             </div>
