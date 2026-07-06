@@ -20,6 +20,8 @@ const Skills = () => {
                 'Programming Languages': [
                     { name: 'Python', percentage: 90, icon: 'fab fa-python' },
                     { name: 'Java', percentage: 80, icon: 'fab fa-java' },
+                    { name: 'JavaScript', percentage: 75, icon: 'fab fa-js-square' },
+                    { name: 'R Programming', percentage: 70, icon: 'fas fa-chart-pie' },
                 ].sort((a, b) => b.percentage - a.percentage),
                 'Machine Learning & AI': [
                     { name: 'Scikit-Learn', percentage: 90, icon: 'fas fa-chart-line' },
@@ -68,27 +70,27 @@ const Skills = () => {
         }
     };
 
-    const activeSkills = activeTab === 'Technical Skills' 
-        ? skillCategories['Technical Skills'].categories[techCategory] 
+    const activeSkills = activeTab === 'Technical Skills'
+        ? skillCategories['Technical Skills'].categories[techCategory]
         : skillCategories[activeTab].skills;
 
     const allTechnologies = ['TensorFlow', 'Data Science', 'Gen AI', 'Model Development', 'Python', 'Machine Learning', 'Artificial Intelligence', 'SQL', 'React', 'Power BI'];
 
     return (
         <section id="skills" className="skills section section-full">
-            <div className="container" style={{maxWidth: '1000px'}}>
-                <div style={{textAlign: 'center', marginBottom: '3rem'}} data-aos="fade-up">
-                    <p style={{color: 'var(--accent-color)', fontSize: '0.85rem', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '0.5rem'}}>Expertise</p>
-                    <h2 className="section-title" style={{marginBottom: '1rem'}}>My <span>Skills</span></h2>
-                    <p style={{color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto'}}>
+            <div className="container" style={{ maxWidth: '1000px' }}>
+                <div style={{ textAlign: 'center', marginBottom: '3rem' }} data-aos="fade-up">
+                    <p style={{ color: 'var(--accent-color)', fontSize: '0.85rem', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Expertise</p>
+                    <h2 className="section-title" style={{ marginBottom: '1rem' }}>My <span>Skills</span></h2>
+                    <p style={{ color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto' }}>
                         A comprehensive toolkit built through hands-on projects, certifications, and continuous learning.
                     </p>
                 </div>
 
                 <div className="skills-tabs" data-aos="fade-up" data-aos-delay="100">
                     {Object.keys(skillCategories).map(cat => (
-                        <button 
-                            key={cat} 
+                        <button
+                            key={cat}
                             className={`skill-tab-btn ${activeTab === cat ? 'active' : ''}`}
                             onClick={() => setActiveTab(cat)}
                         >
@@ -101,8 +103,8 @@ const Skills = () => {
                     <div className="skills-list-col">
                         {activeTab === 'Technical Skills' && (
                             <div className="tech-category-dropdown" style={{ marginBottom: '1.5rem' }} data-aos="fade-right">
-                                <select 
-                                    value={techCategory} 
+                                <select
+                                    value={techCategory}
                                     onChange={(e) => setTechCategory(e.target.value)}
                                     style={{
                                         width: '100%',
