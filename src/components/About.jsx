@@ -15,13 +15,13 @@ const About = () => {
                 <h2 className="section-title" data-aos="fade-up">About <span>Me</span></h2>
                 <Tilt options={tiltOptions}>
                     <div className="about-content glass-card" data-aos="zoom-in" data-aos-duration="1000">
-                        <p style={{marginBottom: '1rem'}}>
+                        <p style={{marginBottom: '1rem', textAlign: 'justify'}}>
                             I am an aspiring <strong>Data Engineer and AI/ML Engineer</strong> with a strong technical foundation in Python, SQL, and predictive modeling. I have hands-on experience in building end-to-end data pipelines, managing relational databases, and training machine learning models to deliver scalable, intelligent solutions.
                         </p>
-                        <p style={{marginBottom: '1rem'}}>
+                        <p style={{marginBottom: '1rem', textAlign: 'justify'}}>
                             Beyond academics, I have practically applied my skills through multiple internships at MAIYYAM, where I gained valuable industry experience spanning Artificial Intelligence, UI/UX Design, and Motion Graphics. This multidisciplinary exposure allows me to approach technical problems with a creative, user-centric mindset.
                         </p>
-                        <p style={{marginBottom: '1.5rem'}}>
+                        <p style={{marginBottom: '1.5rem', textAlign: 'justify'}}>
                             I am deeply passionate about building impactful technology. My project portfolio reflects this drive, featuring creations like an AI-powered Chatbot (similar to GrokAI), a Smart Resume Analyser, and highly-scalable Cloud-Native Data Analytics Pipelines. 
                         </p>
                         <div className="about-highlights" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', marginTop: '1.5rem', borderTop: '1px solid var(--glass-border)', paddingTop: '1.5rem' }}>
