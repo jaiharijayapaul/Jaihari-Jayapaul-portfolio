@@ -422,6 +422,7 @@ ul {
 .hero-title span {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -527,13 +528,18 @@ ul {
 }
 
 .circular-image-wrapper {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1;
     border-radius: 50%;
     border: 2px solid var(--primary-color);
     padding: 10px;
     position: relative;
     box-shadow: 0 0 30px rgba(99, 102, 241, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* To ensure it stays centered if the container is wider */
 }
 
 .circular-image-wrapper img {
@@ -541,6 +547,7 @@ ul {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+    display: block;
 }
 
 .floating-badge {
