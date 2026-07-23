@@ -14,13 +14,13 @@ const Projects = () => {
     const projectsList = [
         {
             id: 1,
-            title: "AI Chatbot",
-            description: "An advanced, conversational AI chatbot similar to GrokAI. Features deep context retention and highly accurate responses.",
-            tags: ["React", "Node.js", "OpenAI API"],
-            icon: "fas fa-robot",
+            title: "Car Selling Price Prediction",
+            description: "A machine learning model designed to predict the selling price of used cars based on various features and historical data.",
+            tags: ["Python", "Machine Learning", "Scikit-Learn"],
+            icon: "fas fa-car",
             color: "#6366f1",
             category: "AI / ML",
-            github: "https://github.com/jaiharijayapaul" 
+            github: "https://github.com/jaiharijayapaul/Car_Selling_Price_Prediction.git" 
         },
         {
             id: 2,
@@ -44,13 +44,13 @@ const Projects = () => {
         },
         {
             id: 4,
-            title: "AI Smart Resume Analyser",
-            description: "An intelligent AI solution built for parsing, summarizing, and ranking candidate resumes against job descriptions.",
-            tags: ["NLP", "Python", "FastAPI"],
-            icon: "fas fa-file-alt",
+            title: "IPL Winning Prediction",
+            description: "A predictive machine learning model to forecast the winning probability of IPL teams based on match situations and historical data.",
+            tags: ["Python", "Machine Learning", "Pandas"],
+            icon: "fas fa-trophy",
             color: "#f59e0b",
             category: "AI / ML",
-            github: "https://github.com/jaiharijayapaul"
+            github: "https://github.com/jaiharijayapaul/IPL_Winning_Prediction.git"
         },
         {
             id: 5,
