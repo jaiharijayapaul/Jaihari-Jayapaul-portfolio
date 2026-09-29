@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Tilt } from 'react-tilt';
+import AOS from 'aos';
 
 const tiltOptions = {
     max: 5,
@@ -11,6 +12,14 @@ const tiltOptions = {
 const Skills = () => {
     const [activeTab, setActiveTab] = useState('Technical Skills');
     const [techCategory, setTechCategory] = useState('Programming Languages');
+
+    useEffect(() => {
+        AOS.refresh();
+        const timer = setTimeout(() => {
+            AOS.refresh();
+        }, 80);
+        return () => clearTimeout(timer);
+    }, [activeTab, techCategory]);
 
     const skillCategories = {
         'Technical Skills': {

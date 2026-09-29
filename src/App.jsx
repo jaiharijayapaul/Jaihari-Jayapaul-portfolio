@@ -22,9 +22,26 @@ function App() {
   useEffect(() => {
     AOS.init({
       once: false,
-      offset: 100,
+      offset: 60,
       duration: 800,
     });
+
+    let resizeTimer;
+    const resizeObserver = new ResizeObserver(() => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        AOS.refresh();
+      }, 60);
+    });
+
+    if (document.body) {
+      resizeObserver.observe(document.body);
+    }
+
+    return () => {
+      clearTimeout(resizeTimer);
+      resizeObserver.disconnect();
+    };
   }, []);
 
   return (

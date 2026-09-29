@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Tilt } from 'react-tilt';
+import AOS from 'aos';
 
 const tiltOptions = {
     max: 10,
@@ -10,6 +11,14 @@ const tiltOptions = {
 
 const Projects = () => {
     const [activeFilter, setActiveFilter] = useState('AI / ML');
+
+    useEffect(() => {
+        AOS.refresh();
+        const timer = setTimeout(() => {
+            AOS.refresh();
+        }, 80);
+        return () => clearTimeout(timer);
+    }, [activeFilter]);
 
     const projectsList = [
         {
