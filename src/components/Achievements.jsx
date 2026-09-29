@@ -12,6 +12,16 @@ const Achievements = () => {
     const achievementsList = [
         {
             id: 1,
+            title: "Top 30 Merit Rank — Resume Competition",
+            role: "Certificate of Excellence Winner",
+            institution: "RVS Training Academy & Career Launchpad",
+            year: "2026",
+            description: "Secured a Top 30 Merit Rank in the campus-wide Outstanding Resume Competition 2026.",
+            icon: "fas fa-trophy",
+            color: "#eab308"
+        },
+        {
+            id: 2,
             title: "SignSpeak AI Project",
             role: "Participant - YII '2026",
             institution: "RVS CAS",
@@ -20,7 +30,7 @@ const Achievements = () => {
             color: "#6366f1"
         },
         {
-            id: 2,
+            id: 3,
             title: "Java Premier League",
             role: "Participant",
             institution: "RVS CAS",
@@ -29,7 +39,7 @@ const Achievements = () => {
             color: "#f59e0b"
         },
         {
-            id: 3,
+            id: 4,
             title: "Arduino Radar",
             role: "Participant - Science Exhibition",
             institution: "RVS CAS",
@@ -67,6 +77,11 @@ const Achievements = () => {
                                     <p className="achievement-institution">
                                         <i className="fas fa-university"></i> {item.institution}
                                     </p>
+                                    {item.description && (
+                                        <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.6rem', lineHeight: '1.4' }}>
+                                            {item.description}
+                                        </p>
+                                    )}
                                 </div>
                             </div>
                         </Tilt>

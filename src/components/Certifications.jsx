@@ -14,6 +14,15 @@ const Certifications = () => {
     const certifications = [
         {
             id: 1,
+            title: "Machine Learning with Python",
+            date: "September 14, 2026",
+            issuer: "freeCodeCamp",
+            description: "300-hour developer certification covering machine learning principles, data analysis, neural networks, and TensorFlow model building in Python.",
+            image: "certificates/Machine learning with Python - Freecodecamp.webp",
+            downloadImage: "certificates/Machine learning with Python - Freecodecamp.bmp"
+        },
+        {
+            id: 2,
             title: "Microsoft Azure AI Essentials",
             date: "December 22, 2025",
             issuer: "Microsoft & LinkedIn",
@@ -21,7 +30,7 @@ const Certifications = () => {
             image: "certificates/WhatsApp Image 2026-07-05 at 3.06.40 PM.jpeg"
         },
         {
-            id: 2,
+            id: 3,
             title: "Innovating with Google Cloud AI",
             date: "December 23, 2025",
             issuer: "Simplilearn & Google Cloud",
@@ -29,7 +38,7 @@ const Certifications = () => {
             image: "certificates/WhatsApp Image 2026-07-05 at 3.07.15 PM.jpeg"
         },
         {
-            id: 3,
+            id: 4,
             title: "GenAI Powered Data Analytics Job Simulation",
             date: "December 27, 2025",
             issuer: "Forage & TATA",
@@ -37,7 +46,7 @@ const Certifications = () => {
             image: "certificates/WhatsApp Image 2026-07-05 at 3.06.39 PM.jpeg"
         },
         {
-            id: 4,
+            id: 5,
             title: "Data Analytics Job Simulation",
             date: "July 4th, 2026",
             issuer: "Deloitte & Forage",
@@ -45,7 +54,7 @@ const Certifications = () => {
             image: "certificates/deloitte data analysis job simulation_page-0001.jpg"
         },
         {
-            id: 5,
+            id: 6,
             title: "AWS S3 Basics",
             date: "June 7, 2026",
             issuer: "Coursera",
@@ -53,7 +62,7 @@ const Certifications = () => {
             image: "certificates/WhatsApp Image 2026-07-05 at 3.06.39 PM (1).jpeg"
         },
         {
-            id: 6,
+            id: 7,
             title: "JavaScript Algorithms and Data Structures V7",
             date: "January 5, 2026",
             issuer: "freeCodeCamp",
@@ -118,7 +127,7 @@ const Certifications = () => {
                             <button className="btn btn-secondary btn-sm" disabled style={{ opacity: 1, color: 'var(--primary-color)', borderColor: 'var(--primary-color)' }}>
                                 <i className="fas fa-star"></i> Verified Certificate
                             </button>
-                            <a href={selectedCert.image} download className="btn btn-primary btn-sm">
+                            <a href={selectedCert.downloadImage || selectedCert.image} download className="btn btn-primary btn-sm">
                                 <i className="fas fa-download"></i> Download
                             </a>
                         </div>

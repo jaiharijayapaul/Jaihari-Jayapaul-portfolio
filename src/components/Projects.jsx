@@ -14,6 +14,28 @@ const Projects = () => {
     const projectsList = [
         {
             id: 1,
+            title: "ReviveAI — AI Revenue Recovery Platform",
+            description: "An AI-native agentic revenue recovery platform that intercepts failed Razorpay transactions and automates recovery decisions through a bounded 8-stage agentic loop. Built for Razorpay AI Buildathon 2026.",
+            tags: ["Python", "FastAPI", "React", "Gemini AI", "Razorpay"],
+            icon: "fas fa-coins",
+            color: "#10b981",
+            category: "AI / ML",
+            github: "https://github.com/jaiharijayapaul/reviveai_rzp.git",
+            demo: "https://reviveai-rzp.vercel.app/"
+        },
+        {
+            id: 2,
+            title: "Elevator Predictive Maintenance System",
+            description: "AI-powered predictive maintenance solution that analyzes 16+ real-time IoT sensor telemetry parameters to detect elevator failures in advance, featuring multi-class health forecasting and SHAP explainability.",
+            tags: ["Python", "Streamlit", "Scikit-Learn", "SHAP", "IoT"],
+            icon: "fas fa-cogs",
+            color: "#0284c7",
+            category: "AI / ML",
+            github: "https://github.com/jaiharijayapaul/predictive-maintenance-of-elevator-using-ml.git",
+            demo: "https://predictive-maintenance-of-elevator.streamlit.app/"
+        },
+        {
+            id: 3,
             title: "Car Selling Price Prediction",
             description: "A machine learning model designed to predict the selling price of used cars based on various features and historical data.",
             tags: ["Python", "Machine Learning", "Scikit-Learn"],
@@ -23,7 +45,7 @@ const Projects = () => {
             github: "https://github.com/jaiharijayapaul/Car_Selling_Price_Prediction.git" 
         },
         {
-            id: 2,
+            id: 4,
             title: "Diabetics Prediction using ML",
             description: "A machine learning predictive model designed for the healthcare industry to accurately forecast diabetic risks based on patient data.",
             tags: ["Python", "Scikit-Learn", "Pandas"],
@@ -33,7 +55,7 @@ const Projects = () => {
             github: "https://github.com/jaiharijayapaul/Diabetics_Prediction.git"
         },
         {
-            id: 3,
+            id: 5,
             title: "Automated Cloud-Native Music Analytics Pipeline",
             description: "An end-to-end cloud-native data pipeline solution for streaming, transforming, and analyzing large-scale music datasets.",
             tags: ["AWS", "PySpark", "Snowflake"],
@@ -43,7 +65,7 @@ const Projects = () => {
             github: "https://github.com/jaiharijayapaul/-Automated-Cloud-Native-Music-Analytics-Pipeline.git"
         },
         {
-            id: 4,
+            id: 6,
             title: "IPL Winning Prediction",
             description: "A predictive machine learning model to forecast the winning probability of IPL teams based on match situations and historical data.",
             tags: ["Python", "Machine Learning", "Pandas"],
@@ -53,7 +75,7 @@ const Projects = () => {
             github: "https://github.com/jaiharijayapaul/IPL_Winning_Prediction.git"
         },
         {
-            id: 5,
+            id: 7,
             title: "Mail Spam Prediction Using ML",
             description: "A machine learning application built to classify and predict email spam with high accuracy, deployed on Streamlit.",
             tags: ["Python", "Streamlit", "Scikit-Learn"],
@@ -64,7 +86,7 @@ const Projects = () => {
             demo: "https://mail-spam-prediction.streamlit.app/"
         },
         {
-            id: 6,
+            id: 8,
             title: "House Price Prediction System",
             description: "A predictive machine learning model that estimates housing prices based on various real estate factors and historical data.",
             tags: ["Python", "Streamlit", "Machine Learning"],
@@ -75,7 +97,7 @@ const Projects = () => {
             demo: "https://house-price-prediction-system1403.streamlit.app/"
         },
         {
-            id: 7,
+            id: 9,
             title: "Novatechit Website",
             description: "A modern, fully responsive business website for Novatechit with a sleek UI and smooth animations.",
             tags: ["React", "CSS", "Frontend"],
@@ -86,7 +108,7 @@ const Projects = () => {
             demo: "https://novatechit-website.netlify.app"
         },
         {
-            id: 8,
+            id: 10,
             title: "Twistbreaker Online Game",
             description: "An interactive and highly addictive online arcade game built entirely with modern web technologies.",
             tags: ["JavaScript", "HTML5 Canvas", "Game Dev"],

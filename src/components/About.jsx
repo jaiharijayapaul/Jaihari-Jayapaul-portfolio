@@ -19,10 +19,10 @@ const About = () => {
                             I am an aspiring <strong>Data Engineer and AI/ML Engineer</strong> with a strong technical foundation in Python, SQL, and predictive modeling. I have hands-on experience in building end-to-end data pipelines, managing relational databases, and training machine learning models to deliver scalable, intelligent solutions.
                         </p>
                         <p style={{marginBottom: '1rem', textAlign: 'justify'}}>
-                            Beyond academics, I have practically applied my skills through multiple internships at MAIYYAM, where I gained valuable industry experience spanning Artificial Intelligence, UI/UX Design, and Motion Graphics. This multidisciplinary exposure allows me to approach technical problems with a creative, user-centric mindset.
+                            Beyond academics, I have practically applied my skills through multiple industry internships at <strong>InternPe</strong>, <strong>Zidio Development</strong>, and <strong>MAIYYAM</strong>, gaining hands-on experience spanning Artificial Intelligence, Full-Stack Web Development, UI/UX Design, and Motion Graphics. This multidisciplinary exposure allows me to approach engineering challenges with both technical rigor and a user-centric mindset.
                         </p>
                         <p style={{marginBottom: '1.5rem', textAlign: 'justify'}}>
-                            I am deeply passionate about building impactful technology. My project portfolio reflects this drive, featuring creations like an AI-powered Chatbot (similar to GrokAI), a Smart Resume Analyser, and highly-scalable Cloud-Native Data Analytics Pipelines. 
+                            I am deeply passionate about building impactful, intelligent software. My project portfolio reflects this drive, featuring creations like <strong>ReviveAI</strong> (an AI-native revenue recovery platform built for the Razorpay AI Buildathon 2026), an <strong>Elevator Predictive Maintenance System</strong> with SHAP explainability, and Cloud-Native Data Analytics Pipelines. 
                         </p>
                         <div className="about-highlights" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', marginTop: '1.5rem', borderTop: '1px solid var(--glass-border)', paddingTop: '1.5rem' }}>
                             <div className="highlight-item">
