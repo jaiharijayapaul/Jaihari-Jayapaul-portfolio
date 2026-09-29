@@ -69,7 +69,7 @@ const Hero = () => {
 
                 <div className="hero-image-side" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                     <div className="circular-image-wrapper">
-                        <img src="profile picture/jaihari.jpeg" alt="Jaihari Jayapaul" draggable="false" style={{ userSelect: 'none', WebkitUserDrag: 'none' }} />
+                        <img src="/profile%20picture/jaihari.jpeg?v=2" alt="Jaihari Jayapaul" draggable="false" style={{ userSelect: 'none', WebkitUserDrag: 'none' }} />
                         <div className="floating-badge badge-1"><i className="fas fa-robot"></i> AI Engineer</div>
                         <div className="floating-badge badge-2"><i className="fab fa-python"></i> Python</div>
                         <div className="floating-badge badge-3"><i className="fas fa-project-diagram"></i> ML Models</div>
